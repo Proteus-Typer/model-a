@@ -1,0 +1,3 @@
+cadquery
+git+https://github.com/gumyr/cq_warehouse.git#egg=cq_warehouse
+flake8

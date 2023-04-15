@@ -1,0 +1,11 @@
+{
+    "python.formatting.provider": "black",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".py",
+                "isAsync": true,
+                "cmd": "make"
+            }
+        }
+    }
