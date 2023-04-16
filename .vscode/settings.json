@@ -7,5 +7,6 @@
                 "isAsync": true,
                 "cmd": "make"
             }
-        }
+        ]
     }
+}
