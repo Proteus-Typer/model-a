@@ -1,4 +1,4 @@
-# Homemade Computer Project To Be Named Later
+# Model-A Homemade Computer Project
 
 Here are the files used to build the case for my homemade
 computer. You can see a lot about it in [this article](http://ralsina.me/weblog/posts/so-i-built-a-laptop.html) (or at least about it as it was in early march 2023)
