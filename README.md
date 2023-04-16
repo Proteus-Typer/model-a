@@ -44,6 +44,7 @@ The basic concepts work, as proven by me building the damned things. But still:
 * The component library is very limited (just the things I am using in my build)
 
 None of those things is an insurmountable problem, and I am working on them,
-and I have plans to fix it all. Eventually. Some day.
+and I have plans to fix it all. Eventually. Some day. I only do this on
+lunch breaks and weekends folks.
 
 In the meantime, if you want to use any of this and need a hand, just contact me at roberto.alsina@gmail.com and I'll try to help.
