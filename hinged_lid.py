@@ -297,7 +297,10 @@ def model():
                     (0, 0),
                     (0, keyboard.kbd_front_thickness),
                     (dim.shell_t, keyboard.kbd_front_thickness),
-                    (keyboard.kbd_actual_height + dim.shell_t, keyboard.kbd_back_thickness),
+                    (
+                        keyboard.kbd_actual_height + dim.shell_t,
+                        keyboard.kbd_back_thickness,
+                    ),
                     (keyboard.kbd_actual_height + dim.shell_t, dim.base_thickness),
                     (dim.height, dim.base_thickness),
                     (dim.height, 0),

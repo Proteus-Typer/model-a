@@ -25,7 +25,9 @@ def init():
             "x": 0,
             "y": 0,
             "z": kbd_pillar_offset_1,
-            "shape": cq.Sketch().push(kbd_pillar_positions).circle(kbd_pillar_radius_1, mode="a"),
+            "shape": cq.Sketch()
+            .push(kbd_pillar_positions)
+            .circle(kbd_pillar_radius_1, mode="a"),
         },
         # Taller pillars with holes for self-tapping screws
         {

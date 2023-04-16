@@ -141,4 +141,6 @@ screen_pillars.pillar_width = 12
 screen_pillars.pillar_height = 12
 screen_pillars.screw_head_radius = 3
 screen_pillars.screw_radius = 1.8
-screen_pillars.screw_head_depth = base_thickness - 13  # (screw thread length - threaded insert depth)
+screen_pillars.screw_head_depth = (
+    base_thickness - 13
+)  # (screw thread length - threaded insert depth)
