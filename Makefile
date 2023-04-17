@@ -8,7 +8,7 @@ all: $(STL_FILES) lint
 lint: .lint
 
 .lint: *.py components/*.py
-	flake8 
 	black *.py */*.py
+	flake8 
 	touch .lint
 
