@@ -12,6 +12,8 @@ def model():
         .box(dim.width, dim.sl_height, dim.sl_thickness)
         .edges("|Z and >Y")
         .fillet(2)
+        .faces("<Z")
+        .tag("bottom")
     )
 
     # Make many holes
@@ -46,6 +48,9 @@ def model():
             )
             .cskHole(dim.m4_bottom, dim.m4_top, 82, depth=None)
         )
+    model.mounting_holes = [
+        x for x in model.faces("<Z").edges("%CIRCLE").vals() if x.radius() == 2
+    ]
 
     # Add front lip
 

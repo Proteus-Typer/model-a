@@ -6,7 +6,8 @@
 	"recommendations": [
 		"emeraldwalk.RunOnSave",
 		"ms-vscode.makefile-tools",
-		"ms-python.python"
+		"ms-python.python",
+		"mtsmfm.vscode-stl-viewer"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

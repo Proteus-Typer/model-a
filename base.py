@@ -110,6 +110,7 @@ def model():
         back_face=None,
         shell_t=dim.shell_t,
     )
+    model.mounting_holes = [x for x in model.faces(">Z").edges("%CIRCLE").vals() if x.radius()==1.8]
 
     model = keyboard.add(
         model=model,
