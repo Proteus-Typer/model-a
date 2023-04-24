@@ -12,7 +12,7 @@ ti_radius = 2.35
 ti_depth = 6.25
 
 # M3 hex nut dimensions
-m3_hn_diam = 5.5
+m3_hn_diam = 6.2
 m3_hn_hole = 3
 m3_hn_thickness = 2.5
 
