@@ -231,7 +231,7 @@ def model():
 
     # Screen mount
     model = (
-        # 1st layer
+        # Frame that contains the screen
         model.workplaneFromTagged("base")
         .center(0, -32)
         .workplane(offset=dim.hl_full_thickness / 2 - dim.shell_t)
@@ -246,7 +246,7 @@ def model():
             .vertices()
             .fillet(2)
         )
-        .extrude(-2 - dim.scr_thickness)
+        .extrude(-1 - dim.scr_thickness)
         # Hole for screws
         .workplaneFromTagged("screen_plane")
         .workplane(offset=1)
@@ -259,7 +259,7 @@ def model():
         .hole(dim.m3_hn_hole, depth=10)
         # Holes for captured nuts
         .workplaneFromTagged("screen_plane")
-        .workplane(offset=1)
+        .workplane(offset=1.5)  # This is INSIDE THE LID
         .rect(
             dim.scr_w + 2 * dim.hl_bezel_width - dim.m3_hn_diam - 1,
             dim.scr_h + 2 * dim.hl_bezel_height - dim.m3_hn_diam - 1,

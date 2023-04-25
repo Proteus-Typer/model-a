@@ -125,7 +125,7 @@ hl_ring_radius = 5  # M3
 hl_hinge_offset = max(p[1] for p in mounting_pillar_positions) + 6
 hl_hinge_width = 25
 # Base + this lid
-hl_full_thickness = 43
+hl_full_thickness = 45
 
 
 ## Dimensions for the simple lid
