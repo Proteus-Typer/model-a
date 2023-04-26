@@ -26,7 +26,7 @@ mounting_pillar_positions = [(x, -y) for x, y in dim.mounting_pillar_positions[:
 
 mounting_pillars = (
     cq.Sketch()
-    .push(dim.mounting_pillar_positions)
+    .push(mounting_pillar_positions)
     .trapezoid(screen_pillars.pillar_width, screen_pillars.pillar_height, 90, mode="a")
     .circle(dim.ti_radius, mode="s")
     .clean()
